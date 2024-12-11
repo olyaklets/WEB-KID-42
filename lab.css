@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #212121;
+    background-color: white;
+    line-height: 1.6;
+}
+
+h2 {
+    text-align: center;
+    margin: 30px auto;
+    color: #ff66b2;
+    font-size: 36px;
+    text-shadow: 2px 2px rgba(33, 150, 243, 0.6), 0 0 15px rgba(100, 181, 246, 0.8);
+}
+
+.lab-section > .a {
+    padding: 25px;
+    background-color: #ff66b2;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    width: 85%;
+}
+
+p {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 18px;
+    color: #ff66b2;
+}
+
+.navbar {
+    background-color: #ff66b2;
+    padding: 12px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    margin: 0;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: #b3e5fc;
+    transform: scale(1.15);
+}
+
+.footer {
+    background-color: #ff66b2;
+    color: #c8e6c9;
+    padding: 25px;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.link {
+    text-align: center;
+    list-style: none;
+    font-size: 19px;
+    margin: 15px 0;
+}
+
+.link a {
+    color: #1100ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.link a:hover {
+    color: #1b5e20;
+}
+
+.links {
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+    margin: 15px 0;
+    color: #33691e;
+}

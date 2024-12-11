@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #5a5a5a;
+    background-color: #ffeaf7;
+    line-height: 1.8;
+}
+
+h2 {
+    text-align: center;
+    margin: 30px auto;
+    color: #d81b60;
+    font-size: 38px;
+    text-shadow: 3px 3px 6px rgba(236, 64, 122, 0.5), 0 0 10px rgba(248, 187, 208, 0.8);
+}
+
+.prac-section {
+    padding: 25px;
+    background-color: #fff0f6;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    width: 75%;
+    border: 2px solid #f8bbd0;
+}
+
+.navbar {
+    background-color: #f06292;
+    padding: 12px;
+    width: 100%;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    margin: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffd1dc;
+    transform: scale(1.2);
+}
+
+.footer {
+    background-color: #ff66b2;
+    color: #f8bbd0;
+    padding: 25px;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 30px;
+    border-top: 2px solid #fce4ec;
+}
+
+.link {
+    text-align: center;
+    list-style: none;
+    font-size: 19px;
+    margin: 15px 0;
+}
+
+.link a {
+    color: #e91e63;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.link a:hover {
+    color: #880e4f;
+    transform: scale(1.1);
+}
+
+.links {
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+    margin: 15px 0;
+    color: #f06292;
+}
+
+
+button {
+    background-color: #ec407a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #f8bbd0;
+    transform: scale(1.1);
+}

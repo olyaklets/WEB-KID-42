@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #4a4a4a;
+    background-color: #ffeaf4; 
+    line-height: 1.6;
+}
+
+h2 {
+    text-align: center;
+    margin: 30px auto;
+    color: #d147a3; 
+    font-size: 36px;
+    text-shadow: 2px 2px rgba(255, 182, 193, 0.7), 0 0 12px rgba(221, 160, 221, 0.8); 
+    font-family: 'Cursive', sans-serif;
+}
+
+.about-section {
+    padding: 20px;
+    background-color: #fff0f5; 
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    color: #4a4a4a;
+}
+
+.me {
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.me img {
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.me img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 18px;
+    color: #555;
+}
+
+.navbar {
+    background-color: #ff99cc; 
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    margin: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    padding: 8px 15px;
+    background-color: #ff66b2; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-links a:hover {
+    background-color: #d147a3; 
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: #ffe0f0; 
+    color: #d147a3; 
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    border-top: 3px solid #ff99cc;
+}
+
+.link {
+    text-align: center;
+    list-style: none;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.link a {
+    color: #d147a3;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.link a:hover {
+    color: #b2328d; 
+}
